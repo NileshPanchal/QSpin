@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html style="background-image: url('http://quizspin.s3.amazonaws.com/customizations/html_backgrounds/000/000/004/original/background3.jpg?1399325174');background-size: 100% 100%;">
+<head>
+    <title>Quizspin : You need smarts. And a little luck.</title>
+    <!--<link href='http://fonts.googleapis.com/css?family=Finger+Paint' rel='stylesheet' type='text/css'>-->
+    <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">-->
+    <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">-->
+    <!--<link data-turbolinks-track="true" href="/assets/application-6f56d32729ceb85b1726a9b451767a38.css" media="all" rel="stylesheet" />-->
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/login-form.css">
+
+    <!--<script data-turbolinks-track="true" src="/assets/application-0c0b30743dd661345d98718425add4a3.js"></script>-->
+    <!--<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>-->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+
+
+    <meta content="authenticity_token" name="csrf-param" />
+    <meta content="iGl8NtJ8Q+Z/G3uCzzpfNrg7picf8UmJR6Luo9u1XN8=" name="csrf-token" />
+
+</head>
+<body>
+<div id="wrapper">
+    <div id="machine-half">
+        <img alt="Logo" id="large-logo" src="assets/images/logo.png" />
+        <div id="login-box" class="login-form content-panel" style="display: block;">
+            <h1>Sign in</h1>
+            <form accept-charset="UTF-8" action="/users/sign_in" class="new_user" id="new_user" method="post">
+                <div style="margin:0;padding:0;display:inline">
+                    <input name="utf8" type="hidden" value="&#x2713;" />
+                    <input name="authenticity_token" type="hidden" value="iGl8NtJ8Q+Z/G3uCzzpfNrg7picf8UmJR6Luo9u1XN8=" />
+                </div>
+                <div>
+                    <input autofocus="autofocus" id="user_email" name="user[email]" placeholder="Email Address" type="email" value="" />
+                </div>
+                <div>
+                    <input id="user_password" name="user[password]" placeholder="Enter Password" type="password" />
+                </div>
+
+                <div><input name="commit" type="submit" value="Log in" /></div>
+            </form>
+        </div>
+    </div>
+    <div id="matter-half">
+        <div id="matter-panel">
+            <div id="intro-panel" class="content-panel" style="margin-top: 40%">
+                <img alt="Panelbackground" id="intro-back" src="assets/images/panelbackground.png" />
+                <div id="intro-text">
+                    <img alt="Natgeologo" id="gamelogo" src="assets/images/natgeologo.jpg" />
+                    <br/>
+                    <br/>
+                    Welcome to Natgeo Quizspin! <br/><br/> Spin the slots to try your luck. But as they say, you can make your own luck. Can you? Answer the questions to win big and leave lady luck gasping...
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
